@@ -1,0 +1,22 @@
+{
+  "name": "MemoPass | Digital Memory Vault & Ticket Stub Creator",
+  "short_name": "MemoPass",
+  "description": "Turn your photos, concert tickets and travel memories into beautiful digital ticket stubs. Join MemoPass, the premium digital scrapbook.",
+  "categories": ["lifestyle", "photo", "social", "travel", "productivity"],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/memopass-icon-2-black.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/memopass-icon-2-black.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

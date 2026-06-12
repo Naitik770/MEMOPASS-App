@@ -1,0 +1,10 @@
+{
+  "projectId": "memory-ticket-app",
+  "appId": "1:597754197248:web:9d5c64ab5a780bfabaefe5",
+  "apiKey": "AIzaSyDBbwHIG-CX-ilmkkmZ4prkUdeIBss35pY",
+  "authDomain": "memory-ticket-app.firebaseapp.com",
+  "firestoreDatabaseId": "ai-studio-7f110447-a9c8-430c-a10d-890bb539967f",
+  "storageBucket": "memory-ticket-app.firebasestorage.app",
+  "messagingSenderId": "597754197248",
+  "measurementId": ""
+}

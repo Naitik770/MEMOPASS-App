@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "MemoryTicket": {
+      "title": "MemoryTicket",
+      "description": "A customized aesthetic digital memory ticket stub.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier of the ticket stub."
+        },
+        "userId": {
+          "type": "string",
+          "description": "The Firebase Authentication UID of the owner."
+        },
+        "title": {
+          "type": "string",
+          "description": "The title or main event of the memory."
+        },
+        "location": {
+          "type": "string",
+          "description": "The geocode or text description of the location."
+        },
+        "date": {
+          "type": "string",
+          "description": "Date associated with the memory in YYYY.MM.DD format."
+        },
+        "quote": {
+          "type": "string",
+          "description": "Personal quote, lyric, or custom note written on the ticket stub."
+        },
+        "imageUri": {
+          "type": "string",
+          "description": "Optimized base64 image or storage URL for the snapshot."
+        },
+        "themeColor": {
+          "type": "string",
+          "description": "Accent branding theme highlight (e.g., violet, sky, emerald, amber)."
+        },
+        "backgroundColor": {
+          "type": "string",
+          "description": "The background color of the card/receipt itself (e.g., white, cream, dark, rose)."
+        },
+        "isFavorite": {
+          "type": "boolean",
+          "description": "Whether this ticket is flagged as a favorite."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp in ISO format or ServerTimestamp."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Update timestamp in ISO format or ServerTimestamp."
+        }
+      },
+      "required": ["id", "userId", "title", "imageUri", "themeColor", "backgroundColor", "isFavorite", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/tickets/{ticketId}": {
+      "schema": "MemoryTicket",
+      "description": "Individual memory stubs owned and created by a verified user."
+    }
+  }
+}

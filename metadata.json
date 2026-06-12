@@ -1,0 +1,7 @@
+{
+  "name": "MemoPass",
+  "description": "Capture elegant digital ticket stubs from photos and memories, with real-time editing, local storage vault, and sharing integrations.",
+  "icon": "/memopass-icon-2-black.png",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
